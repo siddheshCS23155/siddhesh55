@@ -1,0 +1,41 @@
+.formheading
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #2a9d8f;
+    text-shadow: 3px 4px 5px #264653;
+    background-color: #f28482;
+    
+
+}
+.box
+{
+    font-family: cursive;
+    color: #000000;
+    border:  #000000 solid;
+    background: linear-gradient(to bottom,#4c68d7,#8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63);
+    width: 70%;
+    font-weight: bold;
+    box-shadow: 4px 5px 6px #4c68d7;
+    
+}
+img
+{
+    height: 100px;
+    width: 100px;
+
+}
+.down
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body
+{
+    background-image: url(background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    );
+
+}
