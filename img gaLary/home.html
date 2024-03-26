@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      background-color: #bf8276;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    nav {
+      background-color: #72747f;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 60px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .gallery {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .gallery figure {
+      margin: 10px;
+      text-align: center;
+    }
+    .gallery img {
+      width: 200px; /* Keep the width fixed */
+      border-radius: 5px;
+      box-shadow: 20px 30px 50px rgb(2, 2, 2);
+    }
+    .gallery figcaption {
+      margin-top: 5px;
+    }
+    footer {
+      background-color: #72747f;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    iframe {
+      flex: 1;
+      height: 80vh;
+      width: 80%; /* Adjust the width as needed */
+      border: none;
+      margin: auto; /* Center the iframe horizontally */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><img src="/pictogrove-high-resolution-logo-black-transparent.png" height="25px" width="120px"></li>
+      <li><a href="home.html" target="_blank" >Home</a></li>
+      <li><a href="avengers.html" target="image_frame">Avengers</a></li>
+      <li><a href="cricketers.html" target="image_frame">Cricketers</a></li>
+      <li><a href="nature.html" target="image_frame">Nature</a></li>
+      <li><a href="rdj.html" target="image_frame">Robert Downey jr</a></li>
+      <li><a href="msd.html" target="image_frame">M S Dhoni</a></li>
+      <li><a href="contact.html" target="image_frame">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="gallery">
+    <iframe class="image-iframe" name="image_frame" src="image .html">
+    <figure>
+      <a href="avengers.html" target="_blank"><img src="/download.jpg" alt="Placeholder Image 1" ></a>
+      <figcaption>Avengers</figcaption>
+    </figure>
+    <figure>
+      <a href="cricketers.html" target="_blank"><img src="/as-d.jpg" alt="Placeholder Image 2"></a>
+      <figcaption>Cricketers</figcaption>
+    </figure>
+    <figure>
+      <a href="nature.html" target="_blank"><img src="/download (1).jpg" alt="Placeholder Image 3"></a>
+      <figcaption>Nature</figcaption>
+    </figure>
+    <figure>
+      <a href="rdj.html" target="_blank"><img src="/ktokatitmir0.jpg" alt="Placeholder Image 4"></a>
+      <figcaption>Robert Downey jr</figcaption>
+    </figure>
+    <figure>
+      <a href="msd.html" target="_blank"><img src="/msdhoni_2.avif" alt="Placeholder Image 5"></a>
+      <figcaption>M S Dhoni</figcaption>
+    </figure>
+  </iframe>
+  </div>
+
+  <footer>
+    &copy; 2024 Image Gallery. All rights reserved.
+  </footer>
+</body>
+</html>
